@@ -1,0 +1,27 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: API_GATEWAY_1
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          public-key-location: classpath:Keys/publicKey.pem
+  cloud:
+    gateway:
+      routes:
+        - id: chercheur
+          uri: http://localhost:8081
+          predicates:
+            - Path=/chercheurs/**
+        - id: enseignant
+          uri: http://localhost:8086
+          predicates:
+            - Path=/Enseignants/**
+        - id: ProjetDeRecherche
+          uri: http://localhost:8083
+          predicates:
+            - Path=/projets/**
+

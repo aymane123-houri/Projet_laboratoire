@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/API_GATEWAY_1/API_GATEWAY_1.iml" filepath="$PROJECT_DIR$/API_GATEWAY_1/API_GATEWAY_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chercheur/Chercheur.iml" filepath="$PROJECT_DIR$/Chercheur/Chercheur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enseignant/Enseignant.iml" filepath="$PROJECT_DIR$/Enseignant/Enseignant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjetDeRecherche/ProjetDeRecherche.iml" filepath="$PROJECT_DIR$/ProjetDeRecherche/ProjetDeRecherche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroService_TP2/Security_Microservice/Security_Microservice.iml" filepath="$PROJECT_DIR$/MicroService_TP2/Security_Microservice/Security_Microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TP3_Aymane_Houri.iml" filepath="$PROJECT_DIR$/.idea/TP3_Aymane_Houri.iml" />
+    </modules>
+  </component>
+</project>
